@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <ui-view></ui-view>
     <div ng-controller="MyCtrl">
      <!--   <input type = "text" ng-model="myval"/>
         <button ng-click="onClick">click</button>-->
@@ -35,11 +36,12 @@
 <!--  <div ng-show="selectedStudent">
         <h2>Student Details</h2>
         <p>Name : {{selectedStudent.name}}</p>
-        <p>Age : {{selectedStudent.age}}</p>
+        <p>Age : {{selectedStudent.age}}</p> 
         <p>Senior : {{selectedStudent.senior}}</p>
     </div>-->
 </div>
     <script src = "angular.js"></script>
+    <script src = "angular-ui-router.js"></script>
     <script src = "app.js"></script>
     <script src = "app.service.js"></script>
     <script src = "app.filter.js"></script>
